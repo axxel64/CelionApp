@@ -1,0 +1,86 @@
+@import url(../styles/variables.css);
+
+.btn-1 {
+  width: 200px;
+  padding: 10px 0;
+}
+/* SECCION 3 */
+.accordion-item{
+  border: none;
+  border-bottom: 1px #dee2e6 solid;
+}
+/*  */
+
+.see-more-btn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(55deg);
+}
+
+.product-card-1 .see-more-btn svg {
+  color: #ff5704bd;
+}
+.product-card-2 .see-more-btn svg {
+  color: #00c3ffbd;
+}
+.product-card-3 .see-more-btn svg {
+  color: #eb010fbd;
+}
+
+.carrousel-btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: var(--circle-section3-color);
+}
+.carrousel-btn svg {
+  width: 40px;
+  height: 40px;
+}
+
+.container-fluid {
+  
+}
+
+.carousel-control-prev {
+  opacity: 1;
+}
+.carousel-control-next {
+  opacity: 1;
+}
+
+/* swipper */
+
+.swiper-container{
+  height: 200px;
+  margin-bottom: 200px; 
+  position: relative;
+}
+/* .swiper-slide{
+  width: 100px;
+} */
+.swiper-wrapper {
+  overflow: visible; /* Asegura que el contenido no se esconda */
+}
+.swiper-button-next, .swiper-button-prev {
+  color: none; /* Cambia el color a lo que prefieras */
+  display: block; /* Asegura que estén visibles */
+  border: 1px black solid;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  color: #000; /* Cambia el color a lo que prefieras */
+}
+
+/* slider section 10 */

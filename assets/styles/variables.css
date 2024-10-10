@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #ff5704;
+  --secondary-color: #494949;
+  --subtitle-color: #2b2b2b;
+  --paragraph2-color: #484848;
+  --paragraph3-color: #616161;
+  --about-title-color: #a7a7a7;
+  --product-card-color-2: #0095c5;
+  --product-card-color-3: #e92736;
+  --about-tittle-span-color: linear-gradient(
+    90deg,
+    #f8c83c -8.42%,
+    #ff5704 42.04%,
+    #ff3ce0 93.31%
+  );
+  --circle-section3-color: linear-gradient(
+    78.39deg,
+    rgba(255, 87, 4, 0.1776) -137.62%,
+    rgba(255, 64, 4, 0.74) 91.5%
+  );
+  --product-card-shadow: 6px 15px 22.3px 0px #00000038;
+  --product-backg-1: linear-gradient(
+    180deg,
+    rgba(255, 87, 4, 0.1258) 4.42%,
+    rgba(255, 87, 4, 0.74) 95.87%
+  );
+  --product-backg-2: linear-gradient(
+    180deg,
+    rgba(202, 242, 255, 0.2812) 4.42%,
+    rgba(0, 195, 255, 0.74) 95.87%
+  );
+  --product-backg-3: linear-gradient(
+    180deg,
+    rgba(255, 156, 107, 0.3478) 4.42%,
+    rgba(235, 1, 15, 0.74) 95.87%
+  );
+  --border-gradient: linear-gradient(
+    89.93deg,
+    #ff5704 0.02%,
+    rgba(255, 87, 4, 0) 13.51%,
+    #ff5704 25.5%,
+    rgba(255, 87, 4, 0) 36.99%,
+    #ff5704 51.48%,
+    rgba(255, 87, 4, 0) 63.97%,
+    #ff5704 74.46%,
+    rgba(255, 87, 4, 0) 83.95%,
+    #ff5704 94.45%
+  );
+  --value-card-1: linear-gradient(254.84deg, #ff5704 2.28%, #f8c83c 96.89%);
+  --value-card-2: linear-gradient(254.84deg, #56d7ff 2.28%, #006b73 96.89%);
+  --value-card-3: linear-gradient(254.84deg, #ff5704 2.28%, #c73cf8 96.89%);
+  --value-card-4: linear-gradient(254.84deg, #73ad28 2.28%, #f8c83c 96.89%);
+  --montserrat-font: "Montserrat", sans-serif;
+  --backg-1: url("../media/img/section_1_image.png");
+}
